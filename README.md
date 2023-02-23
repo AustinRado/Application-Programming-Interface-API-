@@ -18,3 +18,9 @@ GET -- this request is used to retrieve data
 POST -- this request creates new resource and requires a body of data to be parsed in order to do so to retrieve data.
 PUT -- this request is used  to change or update state of a resource.
 DELETE -- this request is use to remove a resource from the system
+3. Endpoint -- points fo communication when an API interacts and communicates with another system. Basically the URL where the CLIENT gets information from as web servers need some way tof communication with various browsers that the corresponding app might run on. Publicly available URLs are exposed to allow this.
+4. Data --  This value is like arguments to a method in programming, Servers might use certain info to serve your request. Eg; if client is fetching a menu, we might want to specify which menu
+
+**in a GET, data is transferred by way of query parameters (Query parameters; a set of parameters attached to the end of a URL --extension of URL that are used to help define specific content or actions based on the data being passed. To append a query params to the end of a URL, a "?" is added followed by a query parameter)
+Example, Let's say our endpoint is {server.com/menus} and our data is {menu: salads}. The request will be formatted as {server.com/menus?menu=salads}.
+**
