@@ -8,7 +8,7 @@ This is a software intermediary that allows two applications to communticate wit
 
 Let's start from the Js Line that gets values and work our way back until it works back to back
 
-helper.get(endpoitn, data, callback)
+helper.get(endpoint, data, callback)
 
 What the line means;
 1. Helper -- this is a library to facilitate network requests. Native Js way of doing so involves a lot moer boilerplate,repetitive code and is almost replaced with open source solution.
