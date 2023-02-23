@@ -23,4 +23,6 @@ DELETE -- this request is use to remove a resource from the system
 
 **in a GET, data is transferred by way of query parameters (Query parameters; a set of parameters attached to the end of a URL --extension of URL that are used to help define specific content or actions based on the data being passed. To append a query params to the end of a URL, a "?" is added followed by a query parameter)
 Example, Let's say our endpoint is {server.com/menus} and our data is {menu: salads}. The request will be formatted as {server.com/menus?menu=salads}.
-**
+** In a POST request, data is transferred to the body of a request. This is useful when we want to hide info.
+
+5. Callback -- function that's called by the ---helper when the response is given. NB we can't just {const value = helper.get(...)} because a network call is an asycnhronous operation. This means it comes back in a certain amount of time.
