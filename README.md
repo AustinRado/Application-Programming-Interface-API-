@@ -11,7 +11,7 @@ Let's start from the Js Line that gets values and work our way back until it wor
 helper.get(endpoint, data, callback)
 
 What the line means;
-1. Helper -- this is a library to facilitate network requests. Native Js way of doing so involves a lot moer boilerplate,repetitive code and is almost replaced with open source solution.
+1. Helper -- this is a library to facilitate network requests. Native Js way of doing so involves a lot more boilerplate,repetitive code and is almost replaced with open source solution.
 2. get -- this specifies what method we will be calling the endpoint with.
 Other HTTP methods include; 
 GET -- this request is used to retrieve data 
