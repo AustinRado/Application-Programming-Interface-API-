@@ -19,6 +19,8 @@ function getMenus(data) {
       return "I got an A";
     case "b":
       return "I got a B";
+      case "c":
+      return "I got a C";
     default:
       return "I don't know what I got"
   }
